@@ -11,7 +11,7 @@
    ```
    #подключати <QApplication>
    #подключати <QPushButton>
-   цифра царь_батюшка_главный(число argc, char *argv[]) {
+   цифра царь_батюшка_главный(число argc, буква *argv[]) {
        QApplication app(argc, argv);
        QPushButton button("Славься Русь!");
        button.show();
