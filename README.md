@@ -4,8 +4,7 @@
    ```
    TEMPLATE = app
    TARGET = slavicqt
-   CONFIG += console
-   CONFIG -= qt
+   QT += widgets
    SOURCES += app.spp_temp.cpp
    ```
    - Создайте app.spp файл (программу)
