@@ -11,11 +11,11 @@
    ```
    #подключати <QApplication>
    #подключати <QPushButton>
-   цифра царь_батюшка_главный() {
-       QApplication app();
-       QPushButton button("Славься Русь!")
-       button.show()
-       возвращати app.exec()
+   цифра царь_батюшка_главный(число argc, char *argv[]) {
+       QApplication app(argc, argv);
+       QPushButton button("Славься Русь!");
+       button.show();
+       возвращати app.exec();
    }
    ```
 2. Компиляция
